@@ -9,5 +9,5 @@ setup(name='amberelec-webui',
       url='https://github.com/AmberELEC/webui',
       license='GPLv2+',
       platforms=['Linux'],
-      install_requires=['ftfy', 'bottle', 'python_pam', 'beaker']
+      install_requires=['ftfy', 'bottle', 'python_pam', 'beaker', 'six']
       )
