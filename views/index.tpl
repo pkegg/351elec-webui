@@ -4,7 +4,7 @@
             <a :href="`/system/${item.name}`">
                 <li class="col-span-1 shadow dark:shadow-none rounded-md" :class="item.roms == 0 ? 'opacity-60' : ''">
                     <div class="flex items-center justify-center w-100 h-20 bg-theme-700 dark:bg-theme-800 text-white text-sm font-medium rounded-t-md">
-                        <img loading="lazy" :src="`/svg/${item.name}`" class="w-1/2 max-h-20 p-2" :alt="item.fullname">
+                        <img loading="lazy" :src="`/svg/${item.name}.svg`" class="w-1/2 max-h-20 p-2" :alt="item.fullname">
                     </div>
 
                     <div class="flex items-center justify-between border-t border-r border-b border-theme-200 dark:border-theme-900 bg-theme-100 dark:bg-theme-700 rounded-b-md truncate">
